@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsFormsApp1</name>
+    </assembly>
+    <members>
+        <member name="T:WindowsFormsApp1.Class1">
+            <summary>
+            Класс, который содержит методы для поиска минимальных значений внутри массива.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp1.Class1.Min(System.Int32[],System.Int32@)">
+            <summary>
+            Метод для поиска первого минимального значения
+            </summary>
+            <param name="arr">Массив</param>
+            <param name="min1">Индекс</param>
+            <returns>Первое минимальное значение внутри массива</returns>
+        </member>
+        <member name="M:WindowsFormsApp1.Class1.MinSecond(System.Int32[],System.Int32@)">
+            <summary>
+            Метод для поиска второго минимального значения
+            </summary>
+            <param name="arr">Массив</param>
+            <param name="min3">Индекс</param>
+            <returns>Второе минимальное значение внутри массива</returns>
+        </member>
+        <member name="M:WindowsFormsApp1.Class1.MinSecondHelp(System.Int32[],System.Int32@)">
+            <summary>
+            Метод для поиска второго минимального элемента массива, если первое минимальное значение равно последниму значению в массиве
+            </summary>
+            <param name="arr">Массив</param>
+            <param name="min3">Индекс</param>
+            <returns>Второе минимальное значение внутри массива</returns>
+        </member>
+        <member name="F:WindowsFormsApp1.Form1.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:WindowsFormsApp1.Form1.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp1.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApp1.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApp1.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApp1.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>
